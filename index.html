@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Wynajem rowerów</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="./img/logo.svg"/></a>
+    </header>
+    <section id="content">
+        <h2>Wybierz rodzaj roweru</h2>
+        <figure class="rower" onclick="wyborRoweru('Rower miejski')">
+            <img src="./img/1.jpg" />
+            <h3>Rower miejski (0,25zł/min)</h3>
+        </figure>
+        <figure class="rower" onclick="wyborRoweru('Tandem')">
+            <img src="./img/2.jpg" />
+            <h3>Tandem (0,50zł/min)</h3>
+        </figure>
+        <figure class="rower" onclick="wyborRoweru('Poziomka')">
+            <img src="./img/3.jpg" />
+            <h3>Poziomka (0,30zł/min)</h3>
+        </figure>
+    </section>
+    <footer>
+        Przykład Piotr Kijoch
+    </footer>
+    <script src="./zbierzDane.js"></script>
+</body>
+
+</html>
